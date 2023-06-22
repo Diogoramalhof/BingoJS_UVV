@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo-Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="texto">
+            <h1>Bingo</h1>
+            <h2>Online</h2>
+        </div>
+    </header>
+
+    <main>
+        <section id="cartelas">
+            <div id="título">
+                <h3>CARTELAS</h3>
+                <button onclick="gerarCartela()">gerar cartelas</button>
+                <button onclick="reiniciarJogo()">reiniciar jogo</button>
+            </div>
+
+            <div id="cartela">
+                <div class="cartelas">
+
+                </div>
+                <div class="cartela">
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="bingo">
+            <div id="bingo-container">
+                <button onclick="jogarBingo()">Iniciar</button>
+                <div id="numero-sorteado"></div>
+            </div>
+
+            <div id="jogo">
+
+            </div>
+
+        </section>
+    </main>
+
+
+
+    <footer>
+        <div id="fot">
+        <h4>Desenvolvido por <a href="https://www.linkedin.com/in/diogo-fardim-ramalho-a2675b264/">@DiogoRamalhof</a></div>
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
